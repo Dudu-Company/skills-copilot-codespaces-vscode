@@ -1,15 +1,23 @@
-# skills-copilot-codespaces-vscode
-My clone repository
+# Cadastro de cliente em Python
 
-## Treinamento
+Aplicação de treinamento feita em Python com interface gráfica Tkinter para cadastrar clientes.
 
-Este repositório é usado para treinamento. 
+## Dados do cadastro
 
-Quero que você crie um cadastro em python com os dados de um cliente como:
-* Nome
-* Filiacao
-* Documento
-* Data Nascimento
-* Endereco
-* Combo o estado civil
-* Combo com o sexo
+- Nome
+- Filiação
+- Documento
+- Data de nascimento
+- Endereço
+- Estado civil
+- Sexo
+
+## Como executar
+
+O Tkinter já vem incluído na maioria das instalações do Python. Execute:
+
+```bash
+python cadastro_cliente.py
+```
+
+Os registros são exibidos na tabela durante a execução e ficam armazenados em memória.
